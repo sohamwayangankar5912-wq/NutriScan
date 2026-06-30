@@ -1,0 +1,19 @@
+# Exclude environment secrets
+.env
+backend/.env
+
+# Exclude local database
+*.db
+backend/nutriscan.db
+nutriscan.db
+
+# Exclude heavy dependencies
+node_modules/
+backend/venv/
+venv/
+__pycache__/
+*.pyc
+
+# Exclude upload media
+backend/uploads/*
+uploads/*
